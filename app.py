@@ -1,7 +1,6 @@
 # streamlit_app.py
 
 import streamlit as st
-import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
@@ -94,3 +93,4 @@ fig_compare.update_layout(
     yaxis=dict(showgrid=True, gridcolor='lightgrey')
 )
 st.plotly_chart(fig_compare, use_container_width=True)
+
